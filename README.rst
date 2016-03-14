@@ -24,7 +24,7 @@ Install and run Docker daemon
 
     On Ubuntu 12.04 state will also update kernel if needed 
     (as mentioned in `docker installation docs <https://docs.docker.com/installation/ubuntulinux/>`_).
-    You should manually reboot minions for kernel update to take affect.
+    You should manually reboot minions for kernel update to take effect.
     
     You can override the default docker daemon options by setting each line in the *"docker-pkg:lookup:config"* pillar. This effectively writes the config in */etc/default/docker*. See *pillar.example*
 
